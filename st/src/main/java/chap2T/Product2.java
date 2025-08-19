@@ -24,7 +24,7 @@ public class Product2 {
 
             System.out.print("상품갯수 : ");
             int quantity = sc.nextInt();
-            sc.nextLine();// 입력 버퍼 지우는 코드
+            sc.nextLine(); // 입력 버퍼 지우는 코드
             //nextInt() 다음에는 항상 nextLine()을 추가해서 엔터버 퍼를 제거, 반복 입력할때 에러안남
 
             orders[i] = createOrder(ProductName, price, quantity);

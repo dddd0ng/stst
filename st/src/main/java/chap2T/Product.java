@@ -10,7 +10,7 @@ public class Product {
 
         printOrder(orders);
         int sum = getSum(orders);
-        System.out.println("총 결제 금액 : "+ sum);
+        System.out.println("총 결제 금액 : " + sum);
     }
 
     static ProductOrder createOrder(String productName, int price, int quantity) {
